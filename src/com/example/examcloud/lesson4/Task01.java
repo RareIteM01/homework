@@ -1,4 +1,5 @@
-package homework1;
+package com.example.examcloud.lesson4;
+
 
 import java.util.Scanner;
 
