@@ -13,7 +13,7 @@ public class SmallestNumberByModule {
 
         double a1 = Math.abs(a);
        System.out.println("Number absolute value " +a1);
-        int i= 3;
+        double i= 3;
         String result = i < 5 ? "i<5" : "i>=5";
         System.out.println(result);
     }
