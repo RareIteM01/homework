@@ -2,6 +2,9 @@ package com.example.examcloud.lesson5;
 
 public class DaysOfWeek {
     public static void main(String[] args) {
+        for(int i = 0; i<args.length;i++){
+            System.out.println(args[i]);
+        }
         if ("1".equals(args[0])) {
             System.out.println("Monday");
         } else if ("2".equals(args[0])){
