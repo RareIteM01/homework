@@ -1,4 +1,4 @@
-package com.example.university;
+package com.example.university.ppj08;
 
 public class Task5 {
     public static void main(String[] args) {
