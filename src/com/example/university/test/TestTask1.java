@@ -1,4 +1,4 @@
-package com.example.university.sandbox;
+package com.example.university.test;
 
 public class TestTask1 {
     public static void main(String[] args) {
