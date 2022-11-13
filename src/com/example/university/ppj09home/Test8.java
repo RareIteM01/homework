@@ -2,6 +2,10 @@ package com.example.university.ppj09home;
 
 public class Test8 {
     public static void main(String[] args) {
+        variant2();
+    }
+
+    private static void variant1() {
         for (int row = 1; row <= 9; row++) {
             for (int col = 1; col <= 9; col++) {
                 if (row == col) {
@@ -19,7 +23,21 @@ public class Test8 {
                 } else {
                     System.out.print(" . ");
                 }
+            }
+            System.out.println();
+        }
+    }
 
+    private static void variant2() {
+        for (int row = 1; row <= 9; row++) {
+            for (int col = 1; col <= 9; col++) {
+                if ((row == col) || (col == 10 - row)
+                        || (col == 1) || (col == 9)
+                        || (row == 1) || (row == 9)) {
+                    System.out.print(" x ");
+                } else {
+                    System.out.print(" . ");
+                }
             }
             System.out.println();
         }
