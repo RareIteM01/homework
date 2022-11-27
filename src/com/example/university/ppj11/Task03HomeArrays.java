@@ -11,10 +11,10 @@ public class Task03HomeArrays {
         }
         for (int row = 6; row > 0; row--) {
            for (int col = 0; col < array.length; col++) {
-                if ( 7 - row <= array[col]) {
-                    System.out.print("*");
+                if (array[col] >= 7 - row) {
+                    System.out.print(" * ");
                 } else {
-                    System.out.print(" ");
+                    System.out.print("   ");
                 }
             }
             System.out.println();
