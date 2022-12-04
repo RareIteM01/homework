@@ -2,7 +2,7 @@ package com.example.university.ppj11;
 
 public class Task02Home {
     public static void main(String[] args) {
-        int[] array = {3, 30, 5, 8, 6, 2, 7, 10, 28};
+        int[] array = {3, 3, 39, 8, 6, 38, 7, 10, 5};
         int min = array[0];
         int max = array[0];
         for (int i = 0; i < array.length; i++) {
@@ -15,8 +15,8 @@ public class Task02Home {
         }
         System.out.println(max - min);
 
-        int minIndex = 0;
-        int maxIndex = 0;
+        int minIndex = array[0]; // todo придумать пример когда этот код не правильно находится максимальный и минимальный элемент
+        int maxIndex = array[0];
         for (int i = 0; i < array.length; i++) {
             if (array[i] < array[minIndex]) {
                 minIndex = i;
